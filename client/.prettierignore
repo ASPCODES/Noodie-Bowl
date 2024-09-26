@@ -1,0 +1,9 @@
+/.vscode
+/node_modules
+./dist
+./vite.config.js
+./eslint.config.js
+
+*.env
+.env
+.env.*
