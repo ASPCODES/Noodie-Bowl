@@ -19,9 +19,9 @@ const Home = () => {
 
       <section className="home">
         <div>
-          <motion.h1 {...option}>Hot Oven</motion.h1>
+          <motion.h1 {...option}>Noodie Bowl</motion.h1>
           <motion.p {...option} transition={{ delay: 0.2 }}>
-            The Art of Elegant Baking!!
+            Savor the Flavor of Authentic Noodles!
           </motion.p>
         </div>
 

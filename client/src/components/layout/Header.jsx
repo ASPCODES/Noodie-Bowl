@@ -1,5 +1,5 @@
 import React from "react";
-import { PiChefHatDuotone } from "react-icons/pi";
+import { GiNoodles } from "react-icons/gi";
 import { FiLogIn, FiShoppingCart } from "react-icons/fi";
 import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ const Header = ({ isAuthenticated = false }) => {
   return (
     <nav>
       <motion.div initial={{ x: "-100%" }} whileInView={{ x: 0 }}>
-        <PiChefHatDuotone />
+        <GiNoodles />
       </motion.div>
 
       <div>

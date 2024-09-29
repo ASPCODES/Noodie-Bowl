@@ -15,17 +15,20 @@ const Founder = () => {
     };
     return (
         <>
-            <section className="founder"></section>
-            <motion.div {...options}>
-                <img src={owner} alt="Chef" height={300} width={300} />
-                <h3>Robert Oliver</h3>
+            <section className="founder">
+                <motion.div {...options}>
+                    <img src={owner} alt="Chef" height={200} width={200} />
+                    <h2>Robert Oliver</h2>
 
-                <p>
-                    Hello, I'm Robert Oliver, The Founder and Chef at Hot Oven.
                     <br />
-                    Our dedication is to bring innovative flavors to your plate.
-                </p>
-            </motion.div>
+
+                    <p>
+                        Hello, I'm Robert Oliver, The Founder and Chef at Noodie Bowl.
+                        <br />
+                        We are here to Transform Noodles into Culinary Magic.
+                    </p>
+                </motion.div>
+            </section>
         </>
     );
 };

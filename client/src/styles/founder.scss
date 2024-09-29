@@ -6,8 +6,18 @@
   background-color: $brown;
 
   > div {
-    display: flex;
     height: 100%;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
+    > img {
+      border-radius: 100%;
+    }
   }
 }
