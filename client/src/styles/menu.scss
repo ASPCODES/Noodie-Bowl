@@ -1,0 +1,19 @@
+@import "color";
+
+#menu {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding: 4rem;
+
+  > h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

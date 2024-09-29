@@ -1,9 +1,27 @@
-import React from 'react'
+import React from "react";
+import { motion } from "framer-motion";
 
-const MenuCard = () => {
+const MenuCard = ({ ItemNum }) => {
     return (
-        <div>MenuCard</div>
-    )
-}
+        <motion.div
+            className="menuCard"
+            initial={{
+                x: "-100%",
+                opacity: 0,
+            }}
+            whileInView={{
+                x: 0,
+                opacity: 1,
+            }}
+            transition={{
+                delay,
+            }}
+        >
+            <div>Item {{ ItemNum }}</div>
 
-export default MenuCard
+            <main></main>
+        </motion.div>
+    );
+};
+
+export default MenuCard;
