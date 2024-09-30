@@ -22,7 +22,8 @@
   background-color: white;
   width: 30%;
   box-shadow: 0 0 10px rgb(24 24 27);
-  border-radius: 20px;
+  border-radius: 40px;
+  margin: 5px;
 
   > div {
     border-radius: 20px 20px 0 0;
@@ -41,18 +42,18 @@
     align-items: center;
 
     > img {
-      height: 15rem;
+      height: 10rem;
       width: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
 
-    > h4 {
-      font-size: 1.8rem;
+    > h5 {
+      font-size: 2rem;
     }
 
     > p {
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       padding: 1rem 0;
     }
 

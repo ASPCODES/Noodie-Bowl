@@ -22,7 +22,7 @@ const MenuCard = ({ ItemNum, noodleSrc, price, title, handler, delay }) => {
             <main>
                 <img src={noodleSrc} alt={ItemNum} />
 
-                <h4>${price}</h4>
+                <h5>${price}</h5>
 
                 <p>{title}</p>
 
