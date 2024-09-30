@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const MenuCard = ({ ItemNum }) => {
+const MenuCard = ({ ItemNum, noodleSrc, price, title, handler, delay }) => {
     return (
         <motion.div
             className="menuCard"
@@ -17,9 +17,17 @@ const MenuCard = ({ ItemNum }) => {
                 delay,
             }}
         >
-            <div>Item {{ ItemNum }}</div>
+            <div>Item [{ItemNum}]</div>
 
-            <main></main>
+            <main>
+                <img src={noodleSrc} alt={ItemNum} />
+
+                <h4>${price}</h4>
+
+                <p>{title}</p>
+
+                <button onClick={() => handler()}>Buy Now</button>
+            </main>
         </motion.div>
     );
 };
