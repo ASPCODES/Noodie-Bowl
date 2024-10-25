@@ -18,7 +18,7 @@ const Menu = () => {
                 <MenuCard
                     ItemNum={1}
                     noodleSrc={ramen1}
-                    price={12.99}
+                    price={499}
                     title="Chicken Ramen"
                     handler={addToCartHandler}
                     delay={0.4}
@@ -27,7 +27,7 @@ const Menu = () => {
                 <MenuCard
                     ItemNum={2}
                     noodleSrc={ramen2}
-                    price={9.99}
+                    price={199}
                     title="Vegan Ramen"
                     handler={addToCartHandler}
                     delay={0.5}
@@ -36,7 +36,7 @@ const Menu = () => {
                 <MenuCard
                     ItemNum={3}
                     noodleSrc={ramen3}
-                    price={11.99}
+                    price={259}
                     title="Mushroom Ramen"
                     handler={addToCartHandler}
                     delay={0.6}
@@ -45,7 +45,7 @@ const Menu = () => {
                 <MenuCard
                     ItemNum={4}
                     noodleSrc={ramen4}
-                    price={15.99}
+                    price={339}
                     title="Red Hot Ramen"
                     handler={addToCartHandler}
                     delay={0.7}
@@ -54,7 +54,7 @@ const Menu = () => {
                 <MenuCard
                     ItemNum={5}
                     noodleSrc={ramen5}
-                    price={8.99}
+                    price={399}
                     title="Egg Ramen"
                     handler={addToCartHandler}
                     delay={0.8}
