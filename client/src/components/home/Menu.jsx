@@ -1,9 +1,9 @@
 import React from "react";
 import MenuCard from "./MenuCard";
-import ramen1 from "../../assets/Chicken Ramen.avif"
-import ramen2 from "../../assets/Vegan Ramen.avif"
-import ramen3 from "../../assets/Mushroom Ramen.avif"
-import ramen4 from "../../assets/Red Hot Ramen.avif"
+import ramen1 from "../../assets/Chicken Ramen.jpg"
+import ramen2 from "../../assets/Fish Ramen.avif"
+import ramen3 from "../../assets/Mushroom Ramen.jpg"
+import ramen4 from "../../assets/Red Hot Ramen.jpg"
 import ramen5 from "../../assets/Egg Ramen.avif"
 
 const Menu = () => {
@@ -28,7 +28,7 @@ const Menu = () => {
                     ItemNum={2}
                     noodleSrc={ramen2}
                     price={199}
-                    title="Vegan Ramen"
+                    title="Fish Ramen"
                     handler={addToCartHandler}
                     delay={0.5}
                 />

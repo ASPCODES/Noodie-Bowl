@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
-import ramen1 from "../../assets/Chicken Ramen.avif"
-import ramen2 from "../../assets/Vegan Ramen.avif"
-import ramen3 from "../../assets/Mushroom Ramen.avif"
-import ramen4 from "../../assets/Red Hot Ramen.avif"
+import ramen1 from "../../assets/Chicken Ramen.jpg"
+import ramen2 from "../../assets/Fish Ramen.avif"
+import ramen3 from "../../assets/Mushroom Ramen.jpg"
+import ramen4 from "../../assets/Red Hot Ramen.jpg"
 import ramen5 from "../../assets/Egg Ramen.avif"
 
 const CartItem = ({ value, title, img, increment, decrement }) => {
@@ -42,7 +42,7 @@ const Cart = () => {
 
     const ramenItems = [
         { id: 1, title: "Chicken Ramen", img: ramen1 },
-        { id: 2, title: "Vegan Ramen", img: ramen2 },
+        { id: 2, title: "Fish Ramen", img: ramen2 },
         { id: 3, title: "Mushroom Ramen", img: ramen3 },
         { id: 4, title: "Red Hot Ramen", img: ramen4 },
         { id: 5, title: "Egg Ramen", img: ramen5 },
