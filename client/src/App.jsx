@@ -12,6 +12,7 @@ import "./styles/shipping.scss"
 import "./styles/confirmOrder.scss"
 import "./styles/paymentSuccess.scss"
 import "./styles/login.scss"
+import "./styles/profile.scss"
 import Home from "./components/home/Home";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -21,6 +22,7 @@ import Shipping from "./components/cart/Shipping";
 import ConfirmOrder from "./components/cart/ConfirmOrder";
 import PaymentSuccess from "./components/cart/PaymentSuccess";
 import Login from "./components/login/Login";
+import Profile from "./components/profile/Profile";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
         <Route path="/confirmOrder" element={<ConfirmOrder />} />
         <Route path="/paymentsuccess" element={<PaymentSuccess />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </Router>
