@@ -18,7 +18,7 @@ const Founder = () => {
             <section className="founder">
                 <motion.div {...options}>
                     <img src={owner} alt="Chef" height={200} width={200} />
-                    <h2>Chef Robert Oliver</h2>
+                    <h2>Chef Kapoor</h2>
 
                     <p>
                         Hello, I'm Robert Oliver, The Founder and Chef at Noodie Bowl.
