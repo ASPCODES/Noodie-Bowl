@@ -21,7 +21,7 @@ const Founder = () => {
                     <h2>Chef Kapoor</h2>
 
                     <p>
-                        Hello, I'm Robert Oliver, The Founder and Chef at Noodie Bowl.
+                        Hello, I'm Mr. Kapoor, The Founder and Chef at Noodie Bowl.
                         <br />
                         We are here to Transform Noodles into Culinary Magic.
                     </p>

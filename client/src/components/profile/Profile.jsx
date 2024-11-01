@@ -22,7 +22,7 @@ const Profile = () => {
             <main>
                 <motion.img src={owner} alt="User" {...options} />
                 <motion.h5 {...options} transition={{ delay: 0.3 }}>
-                    Chef Robert Oliver
+                    Chef Kapoor
                 </motion.h5>
 
                 <motion.div>

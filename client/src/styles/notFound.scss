@@ -1,0 +1,57 @@
+@import "color";
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $light;
+  color: $brown;
+  font-family: Arial, sans-serif;
+
+  main {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1.5rem;
+
+      svg {
+        font-size: 4rem;
+        color: #dc3545;
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font-size: 5rem;
+        margin: 0;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      color: white;
+      background-color: $lightbrown;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: $amber;
+      }
+    }
+  }
+}
