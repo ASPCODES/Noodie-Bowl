@@ -20,10 +20,26 @@
   }
 
   > a {
+    // display: block;
+    // margin: 2rem 8rem;
+    // width: 10rem;
+    // background-color: $amber;
+    // color: white;
+    // text-align: center;
+    // border: none;
+    // font-size: 1rem;
+    // border-radius: 10px;
+    // padding: 1rem;
+    // cursor: pointer;
+    // transition: 0.3s;
+    // &:hover {
+    //   background-color: $brown;
+    // }
+
     display: block;
     margin: 2rem 8rem;
     width: 10rem;
-    background-color: $amber;
+    background: linear-gradient(135deg, $amber, $orange);
     color: white;
     text-align: center;
     border: none;
@@ -31,10 +47,17 @@
     border-radius: 10px;
     padding: 1rem;
     cursor: pointer;
-    transition: 0.3s;
-    &:hover {
-      background-color: $brown;
-    }
+    box-shadow: 0 4px 8px rgba(23, 23, 23, 0.2);
+    transition:
+      background 0.3s,
+      transform 0.3s,
+      box-shadow 0.3s;
+  }
+
+  a:hover {
+    background: linear-gradient(135deg, $orange, $amber);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(23, 23, 23, 0.3);
   }
 
   &::before {
