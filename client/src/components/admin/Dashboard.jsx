@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
+import React from 'react';
 import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, Tooltip, ArcElement, Legend } from "chart.js";
-import Loader from '../layout/Loader';
 
 ChartJS.register(Tooltip, ArcElement, Legend);
 
@@ -17,14 +15,6 @@ const Box = ({ title, value }) => (
 );
 
 const Dashboard = () => {
-
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 1000);
-    }, []);
 
     const data = {
         labels: ["Preparing", "Shipped", "Delivered"],
@@ -45,30 +35,25 @@ const Dashboard = () => {
                 borderWidth: 1,
             }
         ]
-    }
+    };
 
     return (
         <section className="dashboard">
-            {!loading ? (
-                <main className=" dashboard__content">
-                    <article className="dashboard__stats">
-                        <Box title="Users" value={213} />
-                        <Box title="Orders" value={40} />
-                        <Box title="Income" value={45323} />
-                    </article>
+            <main className="dashboard__content">
+                <article className="dashboard__stats">
+                    <Box title="Users" value={213} />
+                    <Box title="Orders" value={40} />
+                    <Box title="Income" value={45323} />
+                </article>
 
-                    <section className="dashboard__actions">
-
-                        <aside className="dashboard__chart">
-                            <Doughnut data={data} />
-                        </aside>
-                    </section>
-                </main>
-            ) : (
-                <Loader />
-            )}
-        </section >
-    )
+                <section className="dashboard__actions">
+                    <aside className="dashboard__chart">
+                        <Doughnut data={data} />
+                    </aside>
+                </section>
+            </main>
+        </section>
+    );
 }
 
-export default Dashboard
+export default Dashboard;
